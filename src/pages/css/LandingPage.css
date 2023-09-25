@@ -1,0 +1,60 @@
+
+#backgroundVideo {
+  /* border: 1px solid red; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+video {
+  height: 100%;
+}
+
+.centeredCircles {
+  /* border: 1px solid white; */
+  width: 99vw;
+  height: 99vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circles {
+  border: 1px solid white;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+#circle1 {
+  height: 180px;
+  width: 180px;
+}
+
+#circle2 {
+  height: 220px;
+  width: 220px;
+}
+
+#circle3 {
+  height: 260px;
+  width: 260px;
+  animation: 0.9s linear 0s infinite alternate compress;
+}
+
+@keyframes compress {
+  from {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+#middleText {
+  text-align: center;
+}
+
+

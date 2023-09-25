@@ -1,0 +1,68 @@
+#backgroundImage{
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+}
+
+#backgroundImage>img{
+    /* width: 100%; */
+    height: 100%;
+}
+
+#absolutePosition{
+    /* border: 1px solid red; */
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: grid;
+    align-items: end;
+}
+
+#lowerHalf{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 50%;
+}
+#lowerHalf>div:first-child{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 6vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 5px;
+}
+#lowerHalf>div>img{
+    height: 40%;
+}
+
+#lowerHalf>div:nth-child(2){
+    text-align: center;
+}
+
+#endCarousel{
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+    /* border: 1px solid green;
+     */
+    padding: 15px 5px;
+}
+#endCarousel>img{
+    width: 90%;
+}
+#carouselImages{
+    display: flex;
+    align-items: end;
+    width: 86vw;
+    /* border: 1px solid; */
+    height: 17vh;
+    position: absolute;
+    bottom: 2%;
+    left:7%
+}
+#carouselImages>img{
+    width: 50%;
+    background-color: rgb(60, 58, 58);
+    border-radius: 50%;
+}
