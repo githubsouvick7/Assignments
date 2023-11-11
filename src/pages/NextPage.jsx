@@ -9,7 +9,6 @@ export const NextPage = () => {
   const [pic5, setPic5] = useState("hidden");
   const [pic6, setPic6] = useState("hidden");
   const [count, setCount] = useState(1);
-  // console.log(count)
 
   const handleRight = () => {
     if (count < 6) setCount(count + 1);
